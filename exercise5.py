@@ -15,10 +15,13 @@ print(result)
 
 
 def random_list(list_max):
-    list = []
-    list.append(1)
-    for element
-round(random.random() * 10)
+    ran_list = [1]
+    for element in range(1, list_max):
+        ran_list.append(element + round(random.random() * 10))
+    return ran_list
+
+
+random_list()
 
 
 
